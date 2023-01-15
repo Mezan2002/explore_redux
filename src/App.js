@@ -18,6 +18,7 @@ function App() {
       <div>
         <h2>{state}</h2>
         <h2>Hi</h2>
+        <p>What an idea!</p>
         <h2>Hello I am Mezan</h2>
         <button onClick={() => dispatch({ type: "DEC" })}>-</button>
         <button onClick={() => dispatch({ type: "INC" })}>+</button>
